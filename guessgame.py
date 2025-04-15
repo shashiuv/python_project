@@ -1,7 +1,8 @@
 import  random 
 # Initializing  the min and max
 min = 1
-max = 100
+max = 500
+
 def number_guessing_game():
     # Selecting the  random  number in the  between  min  and  max
     number = random.randint(min,max)
